@@ -1,0 +1,48 @@
+.products {
+  max-height: 270px;
+  /* border: 2px solid white; */
+  display: flex;
+  overflow: auto;
+  list-style: none;
+  gap: 10px;
+}
+
+.products::-webkit-scrollbar {
+  width: 0;
+}
+
+.products li {
+  width: 150px;
+  height: auto;
+  text-align: center;
+  margin-right: 10px;
+  font-weight: lighter;
+  /* background: red; */
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+
+.products li h4,
+p {
+  font-size: 12px;
+}
+
+.products li .buttons {
+  font-size: 20px;
+  display: flex;
+  position: absolute;
+  top: 40%;
+  right: 0%;
+}
+
+button {
+  font-size: 25px;
+  background: #e5f0ea;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 50px;
+  font-weight: 800;
+  cursor: pointer;
+}
