@@ -3,6 +3,7 @@ One-page Ecom App
 
 ## <h2>Landing page View</h2>
 
+![Uploading Screenshot (262).png…]()
 
 
 
